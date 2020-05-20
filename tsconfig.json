@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"outDir": "dist",
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"removeComments": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es5",
+		"declaration": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"lib": ["esnext"],
+		"experimentalDecorators": true
+	},
+	"include": [
+		"src/*.ts",
+		"typings/*.d.ts"
+	]
+}

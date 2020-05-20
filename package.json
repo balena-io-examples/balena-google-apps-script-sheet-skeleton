@@ -1,0 +1,36 @@
+{
+  "name": "balena-google-apps-script-sheet-skeleton",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Skeleton template for google apps script sheets projects.",
+  "main": "dist/index.bundle.js",
+  "types": "dist/index.d.ts",
+  "author": "Thodoris Greasidis <thodoris@balena.io>",
+  "license": "Apache-2.0",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack",
+    "lint": "balena-lint --typescript src",
+    "lint-fix": "balena-lint --typescript --fix src",
+    "test": "npm run build && npm run lint",
+    "prepack": "npm run build",
+    "push": "npm run lint-fix && npm run build && clasp push"
+  },
+  "devDependencies": {
+    "@balena/lint": "^5.0.4",
+    "gas-webpack-plugin": "^1.0.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.7",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.14"
+  }
+}
