@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@balena/lint": "^5.0.4",
+    "copy-webpack-plugin": "^6.0.1",
     "gas-webpack-plugin": "^1.0.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.1.7",
