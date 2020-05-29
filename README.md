@@ -24,5 +24,7 @@ as required.
 ## Resources
 
 See: https://github.com/google/clasp
+
 See: https://github.com/google/clasp/blob/master/docs/typescript.md
+
 See: https://developers.google.com/apps-script/guides/libraries
