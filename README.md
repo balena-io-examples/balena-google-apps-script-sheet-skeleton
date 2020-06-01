@@ -2,8 +2,9 @@
 Skeleton template for google apps script sheets projects.
 
 ## :package: Getting Started
-0. Install [Google clasp](https://github.com/google/clasp) and login.
-1. Clone this repository & run `npm install`.
+0. Clone this repository & run `npm install`.
+1. Install [Google clasp](https://github.com/google/clasp) and login,
+  or `npx @google/clasp login` (will use the one installed in your node_modules).
 2. Run `clasp create` so that a `.clasp.json` is created or create one with the desired projectID.
 3. Update the project name and repo urls in `package.json`.
 4. Write your code and `npm run build`.
