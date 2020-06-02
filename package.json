@@ -34,6 +34,6 @@
   "dependencies": {
     "@types/google-apps-script": "^1.0.14",
     "fetch-google-apps-script-ponyfill": "^0.2.0",
-    "pinejs-client-fetch": "^0.2.0-initial-pr-1567a93fac0f8727a1f9e97c92e6732fd71f8da4"
+    "pinejs-client-fetch": "^0.2.1"
   }
 }
