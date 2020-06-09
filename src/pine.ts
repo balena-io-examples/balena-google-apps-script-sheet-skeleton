@@ -2,7 +2,7 @@ import * as fetchGoogleAppsScriptPonyfill from 'fetch-google-apps-script-ponyfil
 import PineClientFetch from 'pinejs-client-fetch';
 
 export const API_BASE_URL = 'https://api.balena-cloud.com/';
-export const API_VERSION = 'resin/';
+export const API_VERSION = 'v6/';
 
 export function getPine() {
 	const pine = new PineClientFetch(
