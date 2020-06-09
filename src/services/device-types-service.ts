@@ -1,4 +1,4 @@
-import { getPine } from './pine';
+import { getPine } from '../pine';
 
 export async function getDeviceType(slug: string) {
 	const pine = getPine();
