@@ -14,13 +14,13 @@ Skeleton template for google apps script sheets projects.
 ## Integrating with balenaCI
 
 After cloning & scaffolding the repository
-* Reset the package.json version to something like `0.1.0`.
-* Update the CHANGELOG.md to also include just that entry.
-* Create a tag matching the version like `v0.1.0`  and push it.
-
-After opening the initial code PR, go to the repository's settings page and add a
-`master` branch protection rule where the appropriate balenaCI checks are marked
-as required.
+* Reset the package.json version to the desired one for the initial release, eg `0.1.0`.
+* Delete the CHANGELOG.md & .versionbot folder.
+* Set the appropriate .github/CODEOWNERS.
+* Push the scaffolded project to `master`
+* Create a new branch and open a PR for it.
+* After balenaCI picks up the PR, go to the repository's settings page and add a
+  `master` branch protection rule and mark the balenaCI checks as required.
 
 
 ## Resources
