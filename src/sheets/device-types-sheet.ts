@@ -22,11 +22,10 @@ export const headerSortIndexes = headers.reduce<Dictionary<number>>(
 	{} as { [header in typeof headers[number]]: number },
 );
 
-export const coloredColumns: Dictionary<ReadonlyArray<
-	typeof headers[number]
->> = {
-	yellow: ['device type slug'] as const,
-};
+export const coloredColumns: Dictionary<ReadonlyArray<typeof headers[number]>> =
+	{
+		yellow: ['device type slug'] as const,
+	};
 
 export const initHeaders = function () {
 	const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
