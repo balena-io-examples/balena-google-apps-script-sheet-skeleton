@@ -1,7 +1,7 @@
 {
   "name": "balena-google-apps-script-sheet-skeleton",
   "private": true,
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Skeleton template for google apps script sheets projects.",
   "main": "dist/index.bundle.js",
   "types": "dist/index.d.ts",
