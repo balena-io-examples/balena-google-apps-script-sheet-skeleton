@@ -13,14 +13,14 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack",
-    "lint": "balena-lint --typescript src",
-    "lint-fix": "balena-lint --typescript --fix src",
+    "lint": "balena-lint src",
+    "lint-fix": "npm run lint -- --fix",
     "test": "npm run build && npm run lint",
     "prepack": "npm run build",
     "push": "npm run lint-fix && npm run build && clasp push"
   },
   "devDependencies": {
-    "@balena/lint": "^5.0.4",
+    "@balena/lint": "^6.1.1",
     "@google/clasp": "^2.3.0",
     "gas-webpack-plugin": "^1.0.2",
     "husky": "^4.2.5",
