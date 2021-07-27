@@ -1,7 +1,7 @@
 {
   "name": "balena-google-apps-script-sheet-skeleton",
   "private": true,
-  "version": "0.1.9",
+  "version": "0.2.0",
   "engines": {
     "node": ">=12.13.0"
   },
@@ -39,5 +39,8 @@
     "@types/google-apps-script": "^1.0.14",
     "fetch-google-apps-script-ponyfill": "^0.2.0",
     "pinejs-client-fetch": "^0.2.1"
+  },
+  "versionist": {
+    "publishedAt": "2021-07-23T15:30:39.873Z"
   }
 }
