@@ -20,5 +20,9 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.ts'],
   },
-  plugins: [new GasPlugin()],
+  plugins: [
+    new GasPlugin({
+      autoGlobalExportsFiles: ['src/index.ts']
+    })
+  ],
 };
